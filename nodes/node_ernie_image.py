@@ -366,7 +366,8 @@ def _enable_vae_tiling(pipeline) -> None:
         fn = getattr(vae, m, None)
         if fn is not None:
             try:
-                fn(); return
+                fn()
+                return
             except Exception:
                 pass
 
@@ -379,7 +380,8 @@ def _disable_vae_tiling(pipeline) -> None:
         fn = getattr(vae, m, None)
         if fn is not None:
             try:
-                fn(); return
+                fn()
+                return
             except Exception:
                 pass
 
