@@ -1,0 +1,17 @@
+[project]
+name = "ernie-image-real-diffusers"
+version = "1.0.0"
+description = "High-fidelity ComfyUI nodes for ERNIE-Image (SFT) and ERNIE-Image-Turbo using the native diffusers pipeline, with all critical text encoder and attention weight patches applied."
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "diffusers>=0.33.0",
+]
+
+[project.urls]
+Repository = "https://github.com/EricRollei/Ernie_Image_Real_Diffusers"
+
+[tool.comfy]
+PublisherId = "EricRollei"
+DisplayName = "Eric ERNIE-Image Real Diffusers"
+Icon = ""

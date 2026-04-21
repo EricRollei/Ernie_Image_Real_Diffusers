@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code local history
+.history/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development / diagnostic scripts (one-time dev tools, not part of the package)
+check_vae_bn.py
+clear_vram.py
+diagnose_ernie.py
+inspect_encode_prompt.py
+inspect_ernie.py
+inspect_keys.py
+patch_begin_index.py
+patch_resolutions.py
+patch_s2stop_default.py
+patch_ultragen_s2stop.py
+patch_unload.py
+verify_fix.py
+
+# Misc
+*.log
+*.tmp
+.env
